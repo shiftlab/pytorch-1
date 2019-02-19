@@ -32,7 +32,7 @@ except ImportError:
 
 RELEASE = os.environ.get('RELEASE', False)
 
-import pytorch_sphinx_theme
+# import pytorch_sphinx_theme
 
 # -- General configuration ------------------------------------------------
 
@@ -136,7 +136,7 @@ autodoc_inherit_docstrings = False
 #
 
 html_theme = 'pytorch_sphinx_theme'
-html_theme_path = [pytorch_sphinx_theme.get_html_theme_path()]
+html_theme_path = ['../../../../pytorch_sphinx_theme-1']
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
