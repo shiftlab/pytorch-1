@@ -12,6 +12,7 @@
 <h1 class="bar">All&nbsp;Classes</h1>
 <div class="indexContainer">
 <ul>
+<li><a href="https://pytorch.org/docs" id="home">Home</a></li>
 <li><a href="org/pytorch/DType.html" title="enum in org.pytorch" target="classFrame">DType</a></li>
 <li><a href="org/pytorch/IValue.html" title="class in org.pytorch" target="classFrame">IValue</a></li>
 <li><a href="org/pytorch/Module.html" title="class in org.pytorch" target="classFrame">Module</a></li>
@@ -20,3 +21,10 @@
 </div>
 </body>
 </html>
+
+<script>
+  var home = document.getElementById("home");
+  home.addEventListener("click", function() {
+    parent.window.location.href = this.getAttribute("href");
+  });
+</script>
